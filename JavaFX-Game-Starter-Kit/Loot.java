@@ -2,14 +2,13 @@
 
 import java.util.ArrayList;
 
-public class Loot2 extends Item{
+public class Loot extends Item{
 
     private ArrayList<Integer> location = new ArrayList<Integer>(); // Create an ArrayList object
     private String typeOfLoot;
     private int value;
 
-
-    public Loot2(ArrayList<Integer> location, String typeOfLoot, int value) {
+    public Loot(ArrayList<Integer> location, String typeOfLoot, int value) {
         this.location = location;
         this.typeOfLoot = typeOfLoot;
         this.value = value;
@@ -45,3 +44,5 @@ public class Loot2 extends Item{
     }
 
 }
+
+
