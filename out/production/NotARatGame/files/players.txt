@@ -1,3 +1,0 @@
-dave 0 0
-jim 0 0
-john 10 100
